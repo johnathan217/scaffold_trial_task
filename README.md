@@ -3,6 +3,7 @@ gpt_shell.py allows the user to interact with models in a shell environment. The
 I took the full two hours (not including breaks away from the computer) to work on this. 
 
 * I made extensive use of ChatGPT 4o - for example, simply pasting in the brief pretty quickly resulted in a model chatting to me in the terminal using the streaming API after some iteration (despite ChatGPT's insistence on using an outdated OpenAI api).
+* I would note that I am accustomed to working in situations where I cannot just pass the brief to an LLM - I am not permitted to pass work code into LLMs, and I find them less useful anyway with large codebases (which tends to be what I work with at work). They do make an excellent source of documentation where documentation widely exists for a technology though.
 * I took a walk after implementing the initial system, during which I thought about possible designs to make the code somewhat reusable, and additional feature ideas, since I had pretty quickly met the basic requirements of the brief.
 * Splitting the code into classes and implementing the second model took more manual intervention.
 * I got into a flow state after my walk, and quickly reached the end of the time limit, despite having planned to include type checking before submitting.
